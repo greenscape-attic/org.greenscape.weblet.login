@@ -1,0 +1,12 @@
+-buildpath:  \
+	osgi.core;version=4.3,\
+	osgi.cmpn;version=4.3,\
+	org.apache.shiro.core,\
+	org.amdatu.web.rest.jaxrs
+Bundle-Version: 0.0.0.${tstamp}
+Private-Package:  \
+	org.greenscape.weblet.login
+Service-Component:  \
+	*
+javac.source: 1.7
+javac.target: 1.7
